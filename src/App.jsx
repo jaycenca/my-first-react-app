@@ -1,13 +1,15 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css';
+import graph from './my-module/myModule.js';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <script type="module" src="./my-module/myModule.js" ></script>  
       <h2>Hello, World!</h2>
     </>
   )
