@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css';
-import Photo from './Photo';
+import TodoListWithObject from './curly-braces/MixedObjectCurlyBrace';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +11,7 @@ function App() {
     <>
       <script type="module" src="./my-module/myModule.js" ></script>  
       <h2>Hello, World!</h2>
-      <Photo />
+      <TodoListWithObject />
     </>
   )
   // return (
