@@ -7,6 +7,6 @@ import TodoListWithObject from './curly-braces/MixedObjectCurlyBrace.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <TodoListWithObject />
+    <App />
   </StrictMode>,
 )
