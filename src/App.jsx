@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css';
-import Animal from './rendering/Animal';
+import Person from './Person.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +11,7 @@ function App() {
     <>
       <script type="module" src="./my-module/myModule.js" ></script>  
       <h2>Hello, World!</h2>
-      <Animal />
+      <Person />
     </>
   )
   // return (
